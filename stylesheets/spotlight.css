@@ -10,11 +10,10 @@
 	z-index: 9999999;
 }
 .spotlight_overlay::before {
-		background: rgba(white, 0.15);
+		background: rgba(255,255,255,0.15);
 		border-radius: 100%;
 		box-shadow: 0 0 0 3000px rgba(0,0,0,0.67);
 		content: '';
-		left: 0;
 		position: absolute;
 }
 .spotlight_overlay .spotlight_title {

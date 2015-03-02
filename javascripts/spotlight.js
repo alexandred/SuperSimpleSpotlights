@@ -3,7 +3,7 @@
 	$.fn.spotlight = function(options) {
 
 		var settings = $.extend({
-			title_html: "Test Title",
+			title_html: "",
 			title_max_width: "60vw",
 			title_left: "",
 			title_top: "100px",
