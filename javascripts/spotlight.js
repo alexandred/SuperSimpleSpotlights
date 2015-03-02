@@ -8,7 +8,7 @@
 			title_left: "",
 			title_top: "100px",
 			close_html: "<i class='fa fa-times'></i>",
-			allow_close: false,
+			allow_close: true,
 			onclose: function() {}
 		}, options);
 
