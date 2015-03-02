@@ -1,5 +1,3 @@
 $(document).ready(function(){
-	$(".simple_example").spotlight({
-		allowClose: true
-	});
+	$(".simple_example").spotlight();
 });
