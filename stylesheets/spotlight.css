@@ -1,0 +1,38 @@
+.spotlight_overlay {
+	color: white;
+	font-size: 25px;
+	height: 100%;
+	pointer-events: auto;
+	position: fixed;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	z-index: 9999999;
+}
+.spotlight_overlay::before {
+		background: rgba(white, 0.15);
+		border-radius: 100%;
+		box-shadow: 0 0 0 3000px rgba(0,0,0,0.67);
+		content: '';
+		left: 0;
+		position: absolute;
+}
+.spotlight_overlay .spotlight_title {
+		display: inline-block;
+		left: 0;
+		margin: 0 auto;
+		position: absolute;
+		right: 0;
+}
+
+.spotlight_overlay .spotlight_close {
+		cursor: pointer;
+		display: none;
+		position: absolute;
+		right: 20px;
+		top: 20px;
+}
+
+.spotlight_overlay .spotlight_close i {
+	font-size: 60px;
+}
