@@ -27,7 +27,11 @@
 		circle_radius = width/2;
 
 		//Prevent user from scrolling while spotlight is open
+		scroll_left = document.body.scrollLeft;
+		scroll_top = document.body.scrollTop;
 		$("body").css("overflow", "hidden");
+		window.scrollTo(scroll_left, scroll_top);
+
 
 		//Inject spotlight divs into body
 		$("body").append("<div class='spotlight_overlay'><div class='spotlight_title'>" + settings.title_html + "</div><div class='spotlight_close'>" + settings.close_html +"</div></div>");
